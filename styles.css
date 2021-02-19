@@ -1,0 +1,19 @@
+#shape-container {
+height: 600px;
+width: 600px;
+background-color: aqua;
+}
+
+.shape{
+    position: absolute;
+}
+
+#shape-info {
+    height: 600px;
+    width: 250px;
+    background-color: burlywood;
+}
+
+#container{
+    display: flex;
+}

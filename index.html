@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <div id="shape-input"> 
+        <div>
+            <h3>Rectangle</h3>
+            <label for="rec-width"></label> 
+            <input type="text" name="rec-width" id="rec-width">
+            <button id="recBtn">Insert</button>
+        </div>
+        <div> 
+            <h3>Square</h3>
+            <label for="square-length">Side Length:</label> 
+            <input type="text" name="square-length" id="square-length">
+            <button id="squareBtn">Insert</button>
+        </div>
+        <div>
+            <h3>Circle</h3> 
+            <label for="circle-length">Radius:</label>
+            <input type="text" name="circle-radius" id="circle-radius">
+            <button id="circleBtn">Insert</button>
+        </div>
+        
+        
+        <h3>Triangle</h3>
+        <label for="circle-length">Height:</label>
+         <input type="text" name="triangle-height" id="triangle-height">
+        <button id="triangleBtn">Insert</button>
+    </div>
+      
+    <div id="container">
+        <div id="shape-container"></div>
+        <div id="shape-info">
+            <div>Shape Name:</div>
+            <div>width:</div>
+            <div>Height:</div>
+            <div>Radius:</div>
+            <div>Area:</div>
+            <div>Perimeter:</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
